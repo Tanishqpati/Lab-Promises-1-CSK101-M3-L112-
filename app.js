@@ -13,6 +13,7 @@ function dataCollection(){
     result.forEach((contact)=>{
       const contactElement=document.createElement('div')
       const nameElement=document.createElement('div')
+      nameElement.setAttribute('class','strength')
       const emailElement=document.createElement('div')
       const cityElement=document.createElement('div')
       const phoneElement=document.createElement('div')
